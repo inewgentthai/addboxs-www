@@ -34,7 +34,7 @@ const Home: NextPage<IHomePage.IProps, IHomePage.InitialProps> = ({
         ));
 
     return (
-        <HomeLayout title={ t("common:True Coffee Title") }>
+        <HomeLayout title={ t("common:Add Boxs") }>
             <div>{renderLocaleButtons(i18n.language)}</div>
         </HomeLayout>
     );

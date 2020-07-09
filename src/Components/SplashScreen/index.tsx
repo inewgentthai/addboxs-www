@@ -22,7 +22,7 @@ const SplashScreen: React.FunctionComponent<ISplashScreen.IProps> = (
             <div className="container">
               <Link href={`/menus`} as={`/menus`}>
                 <a>
-                  <img src="/static/truecoffee-ordering/images/logo-splash.svg"/>
+                  <img src="/static/truecoffee-ordering/images/bg-red.png"/>
                 </a>
               </Link>
             </div>
