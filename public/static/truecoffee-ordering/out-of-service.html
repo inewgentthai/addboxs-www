@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-reboot.css">
+<link rel="stylesheet" href="css/slick.css"/>
+<link rel="stylesheet" href="css/slick-theme.css"/>
+<link rel="stylesheet" href="css/style.css">
+<title>True Coffee : Smart Ordering</title>
+
+</head>
+<body>
+<div class="wrapper">
+
+<!-- Topbar -->
+<section class="topbar fixed-top">
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col text-left"><div class="icn-back float-left"><a href="javascript:history.back()"></a></div></div>
+      <div class="col-6 text-center"><a href="index.html"><img src="images/logo.svg" /></a></div>
+      <div class="col text-right"><div class="icn-cart float-right"><a href="cart.html"><div class="icn-noti">1</div></a></div></div>
+    </div>
+  </div>
+</section>
+<!-- End Topbar -->
+
+<!-- Out of Service -->
+<section class="out-of-service">
+  <div class="container">
+    <div class="icn-personal-area text-center mt-4x">
+      <img src="images/service-area.svg" />
+      <h1 class="text-red mt-2x">You’re not in service area</h1>
+      <div class="mt-1x text-dark-gray mt-1x">คุณไม่ได้อยู่ในพื้นที่การให้บริการ<br />กรุณาอยู่ในพื้นที่และลองใหม่อีกครั้ง
+      </div>
+    </div>
+  </div>
+  <div class="container mt-2x">
+    <div class="paper-list">
+      <div class=" text-center">
+        รายชื่อพื้นที่ให้บริการ
+      </div>
+      <ul>
+        <li>
+          ทรู ทาวเวอร์ ถนนรัชดาภิเษก
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End Out of Service -->
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/all.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+   document.querySelectorAll('img').forEach(function(img){
+  	img.onerror = function(){this.style.display='none';};
+   })
+});
+</script>
+
+<script>
+$('.categories-list').slick({
+mobileFirst: true,
+dots: false,
+infinite: false,
+speed: 300,
+swipeToSlide: true,
+slidesToShow: 3,
+slidesToScroll: 1,
+arrows:false,
+centerMode: false,
+variableWidth: true,
+responsive: [
+            {
+                breakpoint: 768,
+                settings: 'unslick'
+            }
+        ]
+});
+</script>
+
+</body>
+</html>

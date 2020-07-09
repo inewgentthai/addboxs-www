@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultLayout should match snapshot 1`] = `
+<div>
+  <div>
+    <section
+      id="loading"
+    >
+      <div
+        class="loading-icon"
+      />
+    </section>
+    <div
+      class="wrapper"
+    >
+      <section
+        class="topbar fixed-top"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col text-left"
+            >
+              <div
+                class="icn-history float-left"
+              >
+                <a
+                  data-placement="right"
+                  data-toggle="tooltip"
+                  href="order-history.html"
+                  title="Order History"
+                />
+              </div>
+            </div>
+            <div
+              class="col-6 text-center"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  src="static/truecoffee-ordering/images/logo.svg"
+                />
+              </a>
+            </div>
+            <div
+              class="col text-right"
+            >
+              <div
+                class="icn-cart float-right"
+              >
+                <a
+                  href="cart.html"
+                >
+                  <div
+                    class="icn-noti"
+                  >
+                    1
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="categories"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="categories-list row justify-content-center"
+          >
+            <div
+              class="item capsule"
+            >
+              <a
+                href="#"
+              >
+                Allsss
+              </a>
+            </div>
+            <div
+              class="item capsule active"
+            >
+              <a
+                href="#"
+              >
+                Coffee
+              </a>
+            </div>
+            <div
+              class="item capsule"
+            >
+              <a
+                href="#"
+              >
+                Tea
+              </a>
+            </div>
+            <div
+              class="item capsule"
+            >
+              <a
+                href="#"
+              >
+                Non Coffee
+              </a>
+            </div>
+            <div
+              class="item capsule"
+            >
+              <a
+                href="#"
+              >
+                Tea
+              </a>
+            </div>
+            <div
+              class="item capsule"
+            >
+              <a
+                href="#"
+              >
+                Non Coffee
+              </a>
+            </div>
+            <div
+              class="item capsule"
+            >
+              <a
+                href="#"
+              >
+                Tea
+              </a>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col cat-found text-center"
+            >
+              <b
+                class="text-red"
+              >
+                “Coffee”
+              </b>
+               Found 8 item
+            </div>
+          </div>
+        </div>
+      </section>
+      Test
+      <section
+        class="cart-bar fixed-bottom"
+      >
+        <div
+          class="container"
+        >
+          <a
+            href="cart.html"
+          >
+            <div
+              class="row no-gutters justify-content-between align-items-center"
+            >
+              <div
+                class="col-4"
+              >
+                <div
+                  class="item-in-cart badge"
+                >
+                  3
+                </div>
+              </div>
+              <div
+                class="col go-to-cart"
+              >
+                Go to Cart
+              </div>
+              <div
+                class="col-4 total"
+              >
+                <div>
+                  Total
+                </div>
+                <div>
+                  ฿9,999.00
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <div />
+    </div>
+    <button
+      id="fabbtt"
+      title="Go to top"
+    >
+      Back to Top
+    </button>
+  </div>
+</div>
+`;

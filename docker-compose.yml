@@ -1,21 +1,25 @@
-version: '3'
-services:
+version: '3.7'
 
+services:
   addboxs_www:
     container_name: addboxs_www
-    build: .
-    command: pm2-dev ./app/server.js
-    environment:
-      NODE_ENV: development
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.local
+    restart: always
     ports:
-      - '5000:5000'
+      - "5000:5000"
     volumes:
-      - .:/home/nodejs/app
-      - /home/nodejs/app/node_modules
+      - .:/usr/src/app/:cached
+    environment:
+      APP_ENV: local
+      NODE_ENV: local
+      HTTPS_METHOD: noredirect # support both http and https
+    environment:
+      APP_ENV: local
     networks:
       network-inewgent:
 
 networks:
   network-inewgent:
     external: true
-      

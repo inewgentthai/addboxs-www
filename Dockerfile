@@ -1,21 +1,24 @@
-FROM node:12.13.0
+FROM node:10-alpine
 
-LABEL MAINTAINER Michael Hueter <mthueter@gmail.com>
+WORKDIR /opt/app
 
-RUN npm install pm2@4.1.2 --global --quiet
-# add local user for security
-RUN groupadd -r nodejs \
-  && useradd -m -r -g nodejs nodejs
+RUN npm install pm2 -g
 
-USER nodejs
+COPY docker/supervisor/nodejs.ini /etc/supervisor.d/nodejs.ini
+COPY --chown=node:node . /usr/src/app/
 
-# copy local files into container, set working directory and user
-RUN mkdir -p /home/nodejs/app
-WORKDIR /home/nodejs/app
-COPY . /home/nodejs/app
+USER root
 
-RUN npm install --production --quiet
+ENV NODE_ENV production
 
-EXPOSE 5000
+COPY package*.json ./
 
-CMD ["pm2-runtime", "./config/pm2.json"]
+RUN npm ci 
+
+COPY . /opt/app
+
+RUN npm install --only=dev && npm run build
+
+COPY docker/entrypoint.sh /entrypoint.sh
+
+CMD [ "npm", "start" ]

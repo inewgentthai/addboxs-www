@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleMenu should match snapshot 1`] = `
+<div>
+  <div
+    class="item"
+  >
+    <div
+      class="paper"
+    >
+      <a
+        data-backdrop="static"
+        data-target="#itemModal"
+        data-toggle="modal"
+        href="#"
+      >
+        <div
+          class="product-thumb"
+        >
+          <div
+            class="product-size"
+          >
+            ไทย
+          </div>
+          <img
+            class="product-thumb"
+            srcset="undefined 2x, undefined 3x"
+          />
+        </div>
+        <div
+          class="product-info"
+        >
+          <div
+            class="product-type"
+          >
+            Coffee
+          </div>
+          <div
+            class="product-name"
+          >
+            ไทย
+             - 
+            ไทย
+          </div>
+          <div
+            class="product-price-add"
+          >
+            <div
+              class="product-price"
+            >
+              ฿
+              50.00
+            </div>
+            <div
+              class="product-add icn-add-cart"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,70 @@
+$color-primary: #231f20;
+$color-white: #FFFFFF;
+$color-gray: #9B9B9B;
+$color-dark-gray: #5A5758;
+$color-light-gray: #e8e8e8;
+$color-black: #231f20;
+$color-background: #F4F5F8;
+$color-green: #4BBB8B;
+$color-red: #ed3124;
+$color-red-error: #EF4D4D;
+
+$font-face: "ozone_medium";
+
+$font-regular: "ozone_regular";
+$font-medium: "ozone_medium";
+$font-bold: "ozone_bold";
+
+$space-1x: 8px;
+$space-2x: 16px;
+$space-3x: 24px;
+$space-4x: 32px;
+$space-5x: 40px;
+
+$text-h1: 28px;
+$text-h2: 25px;
+$text-h3: 20px;
+$text-button: 25px;
+$text-body: 20px;
+$text-small: 18px;
+$text-micro: 16px;
+
+
+
+@mixin button($amount) {
+  color: $color-white;
+  background-color: $amount;
+  &:hover {
+    color: $color-white;
+    background-color: darken($amount, 5%) !important;
+  }
+  &:focus {
+    color: $color-white;
+    background-color: darken($amount, 15%) !important;
+  }
+  &:active {
+    color: $color-white;
+    background-color: darken($amount, 15%) !important;
+  }
+  &:visited {
+    color: $color-white;
+  }
+  }
+
+@mixin textcolor($amount) {
+  color: $amount;
+  &:hover {
+    color: $amount;
+  }
+  }
+
+@mixin bgcolor($amount) {
+  background-color: $amount;
+}
+
+@mixin centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

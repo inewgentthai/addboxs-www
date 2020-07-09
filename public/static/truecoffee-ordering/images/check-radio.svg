@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="72px" viewBox="0 0 24 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>check-radio</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check-radio">
+            <g id="icn/radio-off" transform="translate(3.000000, 3.000000)" fill="#E8E8E8">
+                <circle id="-g-Oval-2" cx="9" cy="9" r="9"></circle>
+            </g>
+            <g id="icn/radio-check" transform="translate(3.000000, 27.000000)">
+                <g id="-g-Group">
+                    <circle id="Oval-2" fill="#E8E8E8" cx="9" cy="9" r="9"></circle>
+                    <path d="M13.9928397,5.7636882 C13.4668665,5.23621623 12.5475918,5.30307887 12.020945,5.83122622 L7.62593658,10.2387577 L5.90322256,8.51181039 C5.37792275,7.98433843 4.47413768,7.93368491 3.9481644,8.46115688 C3.42219112,8.98862884 3.52186339,9.94429188 4.04783667,10.4717638 L6.67298883,13.104396 C7.19828865,13.631868 8.05156412,13.631868 8.5775374,13.104396 L14.0177578,7.64799907 C14.5437311,7.1205271 14.518813,6.29048478 13.9928397,5.7636882 Z" id="Shape" fill="#ED3124" fill-rule="nonzero"></path>
+                </g>
+            </g>
+            <g id="icn/radio-on" transform="translate(3.000000, 51.000000)">
+                <g id="-g-Group">
+                    <circle id="Oval-2" fill="#E8E8E8" cx="9" cy="9" r="9"></circle>
+                    <circle id="Oval-2" fill="#ED3124" cx="9" cy="9" r="4.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

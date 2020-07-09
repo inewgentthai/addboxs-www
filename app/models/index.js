@@ -1,1 +1,0 @@
-exports.Thing = require('./Thing');

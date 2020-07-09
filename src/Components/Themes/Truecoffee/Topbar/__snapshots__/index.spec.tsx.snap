@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Topbar should match snapshot 1`] = `
+<div>
+  <section
+    class="topbar fixed-top"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row no-gutters"
+      >
+        <div
+          class="col text-left"
+        >
+          <div
+            class="icn-history float-left"
+          >
+            <a
+              data-placement="right"
+              data-toggle="tooltip"
+              href="order-history.html"
+              title="Order History"
+            />
+          </div>
+        </div>
+        <div
+          class="col-6 text-center"
+        >
+          <a
+            href="/"
+          >
+            <img
+              src="static/truecoffee-ordering/images/logo.svg"
+            />
+          </a>
+        </div>
+        <div
+          class="col text-right"
+        >
+          <div
+            class="icn-cart float-right"
+          >
+            <a
+              href="cart.html"
+            >
+              <div
+                class="icn-noti"
+              >
+                1
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-reboot.css">
+<link rel="stylesheet" href="css/slick.css"/>
+<link rel="stylesheet" href="css/slick-theme.css"/>
+<link rel="stylesheet" href="css/style.css">
+<title>True Coffee : Smart Ordering</title>
+</head>
+<body>
+<div class="wrapper">
+
+<!-- Topbar -->
+<section class="topbar fixed-top">
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col text-left"><div class="icn-back float-left"><a href="javascript:history.back()"></a></div></div>
+      <div class="col-6 text-center"><a href="index.html"><img src="images/logo.svg" /></a></div>
+      <div class="col text-right"><div class="icn-cart float-right d-none"><a href="cart.html"><div class="icn-noti">1</div></a></div></div>
+    </div>
+  </div>
+</section>
+<!-- End Topbar -->
+
+<!-- Branch Bar -->
+<section class="branch-bar">
+  <div class="container">
+    <div class="row no-gutters justify-content-between align-items-center">
+      <div class="col text-left">@True Tower 1</div>
+      <div class="col text-right">Table - A6</div>
+    </div>
+  </div>
+</section>
+<!-- End Branch Bar -->
+
+<!-- Cart Bar -->
+<section class="cart-bar cart-page">
+  <div class="container">
+    <div class="row no-gutters justify-content-between align-items-center">
+      <div class="col item-in-cart">Total 2 Item</div>
+      <div class="col total">
+        ฿9,999.00
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Cart Bar -->
+
+<!-- Cart List -->
+<section class="cart-list">
+  <div class="container">
+    <ul class="paper-list">
+      <li class="row no-gutters">
+        <div class="col item-info">
+          <div class="item-info-name">Iced Caramel Macchiato - M</div>
+          <div class="item-info-price">฿85.00</div>
+          <div class="item-info-note">ความหวาน 20%</div>
+        </div>
+        <div class="float-right item-quantity">
+          <div class="product-quantity d-flex justify-content-center">
+            <a class="icn-minus disable"></a>
+            <input type="tel" class="form-control" id="itemquantity" placeholder="" min="1" max="99" maxlength="2" value="1">
+            <a class="icn-plus"></a>
+          </div>
+        </div>
+        <div class="float-right item-price">
+          <div class="item-price-total">฿9,999.00</div>
+          <div class="item-delete"><a href="#"><i class="fas fa-xs fa-trash-alt"></i> Delete</a></div>
+        </div>
+      </li>
+      <li class="row no-gutters">
+        <div class="col item-info">
+          <div class="item-info-name">Iced Caramel Macchiato - M</div>
+          <div class="item-info-price">฿85.00</div>
+          <div class="item-info-note">ความหวาน 20%</div>
+        </div>
+        <div class="float-right item-quantity">
+          <div class="product-quantity d-flex justify-content-center">
+            <a class="icn-minus disable"></a>
+            <input type="tel" class="form-control" id="itemquantity" placeholder="" min="1" max="99" maxlength="2" value="1">
+            <a class="icn-plus"></a>
+          </div>
+        </div>
+        <div class="float-right item-price">
+          <div class="item-price-total">฿9,999.00</div>
+          <div class="item-delete"><a href="#"><i class="fas fa-xs fa-trash-alt"></i> Delete</a></div>
+        </div>
+      </li>
+      <li>
+        <div class="add-more-item text-center">
+            <button class="btn btn-add-more" onclick="location.href='index.html';">+ Add More Item</button>
+        </div>
+      </li>
+    </ul>
+    <ul class="paper-list">
+      <li>
+        <div class="text-center">
+          <span class="text-red">Has No item in Cart</span>
+        </div>
+        <div class="add-more-item mt-1x text-center">
+            <button class="btn btn-add-more" onclick="location.href='index.html';">+ Add Item</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- End Cart List -->
+
+<!-- Bottom Bar -->
+<section class="bottom-bar fixed-bottom">
+  <div class="container-fluid">
+    <div class="btn-set">
+      <a href="checkout.html" class="btn btn-red btn-block">Checkout</a>
+    </div>
+</section>
+<!-- End Bottom Bar -->
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/all.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+ document.querySelectorAll('img').forEach(function(img){
+  img.onerror = function(){this.style.display='none';};
+ })
+});
+</script>
+
+<script>
+$('.categories-list').slick({
+mobileFirst: true,
+dots: false,
+infinite: false,
+speed: 300,
+swipeToSlide: true,
+slidesToShow: 3,
+slidesToScroll: 1,
+arrows:false,
+centerMode: false,
+variableWidth: true,
+responsive: [
+            {
+                breakpoint: 768,
+                settings: 'unslick'
+            }
+        ]
+});
+</script>
+<script>
+
+</script>
+</body>
+</html>

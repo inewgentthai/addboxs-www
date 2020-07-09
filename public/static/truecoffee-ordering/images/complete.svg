@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>D57BDF6B-3531-4680-81AE-31FAEC6E425A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn/complete" fill-rule="nonzero">
+            <g id="-g-Group">
+                <path d="M32,64 C14.326888,64 1.1574075e-13,49.673112 1.1574075e-13,32 C1.1574075e-13,14.326888 14.326888,0 32,0 C49.673112,0 64,14.326888 64,32 C64,49.673112 49.673112,64 32,64 Z" id="Combined-Shape" fill="#4BBB8B"></path>
+                <path d="M46.7837891,21.076988 C45.2258462,19.514988 42.5029371,19.712988 40.9429994,21.276988 L27.9249007,34.328988 L22.8221891,29.214988 C21.266241,27.652988 18.5892124,27.502988 17.0312696,29.064988 C15.4733267,30.626988 15.7685579,33.456988 17.3265007,35.018988 L25.1022514,42.814988 C26.6581994,44.376988 29.1856176,44.376988 30.7435605,42.814988 L46.8575968,26.656988 C48.4155397,25.094988 48.3417319,22.636988 46.7837891,21.076988 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
