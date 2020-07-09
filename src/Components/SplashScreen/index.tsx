@@ -20,11 +20,11 @@ const SplashScreen: React.FunctionComponent<ISplashScreen.IProps> = (
         <div className="wrapper d-flex align-items-center justify-content-center">
           <section className="splash-container">
             <div className="container">
-              <Link href={`/menus`} as={`/menus`}>
+              {/* <Link href={`/menus`} as={`/menus`}> */}
                 <a>
                   <img src="/static/truecoffee-ordering/images/bg-red.png"/>
                 </a>
-              </Link>
+              {/* </Link> */}
             </div>
           </section>
         </div>
